@@ -69,6 +69,14 @@ Link cashier: https://table1.klkim.com/v2/order/cashier
 | ☐ | Mô tả giới hạn 200 ký tự | 1. Mở modal "Thêm phiếu" 2. Tìm ô "Mô tả" 3. Quan sát bộ đếm ký tự (0/200) 4. Nhập dần đến 200 ký tự → quan sát 5. Thử nhập thêm ký tự thứ 201 | Bộ đếm tăng dần; dừng tại 200, không nhập thêm được hoặc bị cắt ngắn |
 | ☐ | Bấm "Lưu" hợp lệ | 1. Mở modal "Thêm phiếu" 2. Điền đầy đủ tất cả trường bắt buộc (Loại thu chi, Số tiền) 3. Bấm nút "Lưu" 4. Quan sát danh sách phiếu và thẻ tổng quan | Phiếu mới xuất hiện đầu danh sách; thẻ Tổng thu hoặc Tổng chi cập nhật tương ứng |
 | ☐ | Bấm "Đóng" không tạo phiếu | 1. Mở modal "Thêm phiếu" 2. Điền một vài thông tin vào form 3. Bấm nút "Đóng" (không bấm Lưu) 4. Quan sát danh sách phiếu | Modal đóng lại; không có phiếu mới nào được tạo; danh sách không thay đổi |
+| ☐ | Mã phiếu tăng dần sau mỗi lần tạo | 1. Mở modal "Thêm phiếu", ghi nhận mã phiếu hiển thị (VD: vote-00005) 2. Điền đủ trường bắt buộc, bấm "Lưu" 3. Mở lại modal "Thêm phiếu" lần 2 4. Quan sát mã phiếu mới | Mã phiếu lần 2 tăng thêm 1 (VD: vote-00006), không bị lặp lại mã cũ |
+| ☐ | Nhập Số tiền = 0 | 1. Mở modal "Thêm phiếu" 2. Điền đầy đủ Loại thu chi 3. Nhập "0" vào ô Số tiền 4. Bấm "Lưu" 5. Quan sát phản hồi | Hệ thống chặn lưu, hiển thị thông báo lỗi yêu cầu số tiền lớn hơn 0 |
+| ☐ | Loại đối tượng thay đổi → danh sách Người nộp thay đổi | 1. Mở modal "Thêm phiếu" 2. Bấm dropdown "Loại đối tượng", chọn "Khách hàng" → bấm dropdown "Người nộp" quan sát danh sách 3. Đổi "Loại đối tượng" sang "Nhân viên" → bấm dropdown "Người nộp" quan sát lại | Danh sách Người nộp thay đổi theo Loại đối tượng: chọn Khách hàng → chỉ list khách hàng; chọn Nhân viên → chỉ list nhân viên |
+| ☐ | Loại đối tượng chưa chọn → Người nộp | 1. Mở modal "Thêm phiếu" 2. Không chọn "Loại đối tượng" 3. Bấm vào dropdown "Người nộp" 4. Quan sát trạng thái ô | Ô "Người nộp" bị disabled hoặc danh sách rỗng khi chưa chọn Loại đối tượng |
+| ☐ | Loại thu chi = "Chi" → label đổi sang "Người nhận" | 1. Mở modal "Thêm phiếu" 2. Bấm dropdown "Loại thu chi", chọn "Thu" → quan sát nhãn bên phải 3. Đổi sang chọn "Chi" → quan sát lại nhãn | Chọn "Thu": nhãn hiển thị "Người nộp". Chọn "Chi": nhãn đổi thành "Người nhận" |
+| ☐ | Xóa file đính kèm sau khi đã chọn | 1. Mở modal "Thêm phiếu" 2. Bấm "Chọn tệp", chọn một file từ máy 3. Quan sát file hiển thị trong ô đính kèm 4. Tìm và bấm nút xóa (X) bên cạnh tên file 5. Quan sát lại ô đính kèm | File bị xóa khỏi form, ô đính kèm trở về trạng thái "Chưa có tệp nào được chọn" |
+| ☐ | Lưu phiếu thu → Tồn quỹ tăng đúng | 1. Vào trang Thu chi, ghi nhận "Tồn quỹ cuối kỳ" hiện tại (VD: 8,962,000đ) 2. Mở modal "Thêm phiếu", chọn Loại = "Thu", nhập Số tiền = 200,000đ, bấm "Lưu" 3. Quan sát thẻ "Tồn quỹ cuối kỳ" sau khi lưu | Tồn quỹ cuối kỳ tăng đúng 200,000đ (VD: thành 9,162,000đ) |
+| ☐ | Lưu phiếu chi → Tồn quỹ giảm đúng | 1. Vào trang Thu chi, ghi nhận "Tồn quỹ cuối kỳ" hiện tại 2. Mở modal "Thêm phiếu", chọn Loại = "Chi", nhập Số tiền = 100,000đ, bấm "Lưu" 3. Quan sát thẻ "Tồn quỹ cuối kỳ" sau khi lưu | Tồn quỹ cuối kỳ giảm đúng 100,000đ |
 
 ---
 
@@ -103,7 +111,6 @@ Link cashier: https://table1.klkim.com/v2/order/cashier
 | ☐ | File xuất đúng dữ liệu theo bộ lọc | 1. Vào trang Thu chi, áp bộ lọc cụ thể (VD: Loại = Thu, Tháng này) 2. Ghi nhận số dòng và tổng tiền hiển thị trên màn hình 3. Bấm "Xuất Excel", mở file vừa tải 4. So sánh nội dung file với dữ liệu trên màn hình | File Excel chứa đúng số dòng và dữ liệu khớp với bộ lọc đang áp dụng |
 
 ---
-
 
 ## . Công nợ (tab Công nợ)
 
