@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(py --version)",
-      "Bash(node \"d:/testcase-order-fluter/.testrun/fix_columns.mjs\")"
-    ]
-  }
-}
