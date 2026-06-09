@@ -1,4 +1,4 @@
-
+﻿
 Link login: https://table1.klkim.com/login
 
 Tài khoản:
@@ -11,6 +11,8 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 ## 5. Điều phối ca
 ---
 
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 5.3 Thẻ tổng hợp (Bán hàng / Trả hàng / Phiếu thu / Phiếu chi)
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -22,4 +24,4 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 | 5.3.5 | ☐ | Bấm "..." trên thẻ để xem chi tiết phương thức | 1. Mở chi tiết một ca 2. Trên bất kỳ thẻ tổng hợp nào (VD: Bán hàng), bấm nút "..." 3. Quan sát thông tin hiện ra | Hiện chi tiết phân theo từng phương thức: tiền mặt / chuyển khoản / quẹt thẻ / QR / khác |
 | 5.3.6 | ☐ | Tổng các phương thức khớp với tổng thẻ | 1. Mở chi tiết thẻ bằng cách bấm "..." 2. Cộng tay các giá trị từng phương thức (tiền mặt + CK + thẻ + QR + khác) 3. So sánh với số tổng hiển thị trên thẻ | Tổng các phương thức = tổng hiển thị trên thẻ |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.5 Hoa hồng nhân viên
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -28,4 +31,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.5.10 | ☐ | Để trống nhân viên | 1. Mở modal Hoa hồng 2. Không chọn nhân viên cho bất kỳ mục nào 3. Bấm "Xác nhận" | Hệ thống cho phép xác nhận, không báo lỗi bắt buộc |
 | 1.5.11 | ☐ | 1 NV gán nhiều mục | 1. Trong modal, chọn cùng một nhân viên cho cả 2 mục hoa hồng (VD: 123 (10%) và 456 (5%)) 2. Bấm "Xác nhận" 3. Kiểm tra tổng hoa hồng của nhân viên đó trong link "https://table.nasys.vn/v2/report/end-day?type=commission" vào mục "Báo cáo hoa hồng.| số tiền nhận được phải đúng với %
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

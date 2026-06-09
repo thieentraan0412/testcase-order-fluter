@@ -1,9 +1,11 @@
-## 6. Đặt bàn (Order Booking)
+﻿## 6. Đặt bàn (Order Booking)
 
 > Trang: `/v2/order/cashier/order-booking` — Module **Đặt bàn**
 > Gồm 2 màn hình: (1) **Lịch đặt bàn theo tuần** và (2) **Tra cứu lịch đặt bàn** (`/booking/table-reservation`)
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 6.10 Bảng danh sách tra cứu
 
@@ -17,4 +19,4 @@
 | 6.10.6 | ☐ | Phân trang | 1. Vào trang Tra cứu với đủ dữ liệu nhiều trang 2. Quan sát điều hướng trang (số trang, nút chuyển) 3. Bấm sang trang 2, trang 3 4. Quan sát dữ liệu từng trang | Phân trang đúng, dữ liệu mỗi trang không lặp |
 | 6.10.7 | ☐ | Nút "← Trở lại" quay về lịch | 1. Vào trang Tra cứu 2. Bấm nút "← Trở lại" góc trên trái 3. Quan sát trang điều hướng đến | Quay lại đúng màn hình lịch đặt bàn theo tuần |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

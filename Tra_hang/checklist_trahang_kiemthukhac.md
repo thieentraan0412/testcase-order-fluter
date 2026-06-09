@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 11. Kiểm thử khác (UI/UX, phân quyền, hiệu năng)
 
@@ -16,4 +18,4 @@
 | ☐ | 11.5 Mất kết nối khi trả hàng | 1. Ngắt mạng 2. Bấm Xác nhận trả hàng | Báo lỗi rõ ràng, không lưu sai dữ liệu |
 | ☐ | 11.6 Bấm Trả hàng nhiều lần nhanh | 1. Bấm "Xác nhận" liên tục | Không tạo trùng nhiều phiếu (chống double submit) |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

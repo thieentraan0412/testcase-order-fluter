@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 8. Modal "Thông tin trả hàng" — Tính tiền & trường nhập
 
@@ -22,4 +24,4 @@
 | ☐ | 8.11 Số điện thoại | 1. Nhập SĐT hợp lệ / sai định dạng | Hợp lệ thì nhận; sai định dạng thì cảnh báo (nếu có validate) |
 | ☐ | 8.12 Lý do trả hàng (bắt buộc) | 1. Để trống "Lý do trả hàng*" 2. Bấm Trả hàng | Báo lỗi yêu cầu nhập lý do |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

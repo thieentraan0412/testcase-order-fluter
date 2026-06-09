@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.1 Sơ đồ bàn
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -25,11 +28,18 @@ Sau khi truy cập link: Click vào bàn
 | 1.1.7 | ☐ | Đổi số cột hiển thị (6 cột) | 1. Tại Trang chủ, tìm dropdown "6 cột" trên thanh công cụ 2. Bấm vào dropdown, chọn số cột khác (VD: 4 cột hoặc 8 cột) 3. Quan sát lưới bàn thay đổi bố cục | Lưới bàn bố trí lại đúng số cột đã chọn |
 | 1.1.8 | ☐ | Đổi giao diện (1 / 2 / 3) | 1. Tại Trang chủ, tìm nút "Giao diện 3" trên thanh công cụ 2. Bấm nút để chuyển lần lượt: Giao diện 1 → 2 → 3 3. Quan sát kiểu hiển thị thẻ bàn sau mỗi lần đổi | Kiểu hiển thị thẻ bàn thay đổi tương ứng |
 | 1.1.9 | ☐ | Thẻ bàn hiển thị thông tin | 1. Tại Trang chủ, lọc tab "Đang sử dụng" 2. Quan sát một thẻ bàn đang hoạt động (thẻ màu vàng/cam) 3. Kiểm tra từng thông tin: tên bàn, timer, icon hóa đơn, icon số khách, tổng tiền, nhãn trạng thái | Đúng tên, timer, số hóa đơn, số khách, tổng tiền, trạng thái |
-| 1.1.10 | ☐ | Tổng tiền trên thẻ bàn | 1. Bấm vào bàn đang sử dụng để vào màn hình Order 2. Ghi nhận tổng tiền thanh toán hiển thị (đã tính thuế) 3. Bấm "Back" về Trang chủ 4. So sánh tổng tiền trên thẻ bàn với con số vừa ghi nhận | Khớp tổng đơn của bàn (đã gồm thuế) |
+| 1.1.10 | ☐ | Tổng tiền trên thẻ bàn | 1. Bấm vào bàn đang sử dụng để vào màn hình Order 2. Ghi nhận tổng tiền thanh toán hiển thị (chưa tính thuế) 3. Bấm "Back" về Trang chủ 4. So sánh tổng tiền trên thẻ bàn với con số vừa ghi nhận | Khớp tổng đơn của bàn (chưa gồm thuế) |
 | 1.1.11 | ☐ | Trạng thái "Chưa báo bếp" | 1. Bấm vào bàn đang sử dụng, thêm ít nhất 1 món mới vào đơn 2. "Không" bấm nút "Gửi bếp / Báo bếp" 3. Back về Trang chủ 4. Quan sát thẻ bàn đó | Hiển thị nhãn "Chưa báo bếp" trên thẻ bàn |
-| 1.1.12 | ☐ | Nút "Xác nhận" trên thẻ | 1. Tại Trang chủ, lọc tab "Chờ xác nhận" 2. Tìm thẻ bàn có nút "Xác nhận" 3. Bấm nút "Xác nhận" trực tiếp trên thẻ bàn 4. Quan sát trạng thái thẻ bàn sau thao tác | Đơn được xác nhận, trạng thái cập nhật sang "Đang sử dụng" |
+| 1.1.12 | ☐ | Nút "Xác nhận" trên thẻ | 1. Tại Trang chủ, lọc tab "Chờ xác nhận" 2. Tìm thẻ bàn có nút "Xác nhận" 3. Bấm nút "Xác nhận" trực tiếp trên thẻ bàn 4. Quan sát trạng thái thẻ bàn sau thao tác | Đơn được xác nhận, trạng thái cập nhật sang "Đang sử dụng" | 
 | 1.1.13 | ☐ | Bấm vào bàn | 1. Tại Trang chủ, chọn bất kỳ thẻ bàn nào 2. Bấm vào vùng thân thẻ bàn 3. Quan sát màn hình mở ra | Mở màn hình Order của bàn đó |
 | 1.1.14 | ☐ | Thêm đơn mang về | 1. Tại Trang chủ, tìm thẻ "Bàn mang về" (thẻ có icon Takeaway, vị trí đầu danh sách) 2. Bấm vào thẻ đó 3. Quan sát màn hình mở ra | Mở màn hình Order ở chế độ Mang đi |
 | 1.1.15 | ☐ | Số liệu các tab nhất quán | 1. Tại Trang chủ, ghi lại số đếm từng tab: "Bàn trống (n1)", "Đang sử dụng (n2)", "Chờ xác nhận (n3)", "Chờ thanh toán (n4)" 2. Tính tổng: n1 + n2 + n3 + n4 3. So sánh với số hiển thị tại tab "Tất cả" | Tổng các tab = tổng tất cả |
+| 1.1.16 | ☐ | Chế độ xem "Khu vực" (gom theo khu) | 1. Tại Trang chủ, tìm dropdown "Danh sách" trên thanh công cụ 2. Chọn "Khu vực" 3. Quan sát bố cục danh sách bàn | Bàn được nhóm theo từng khu, có tiêu đề khu (VD "khu 1 (12)") phía trên mỗi nhóm |
+| 1.1.17 | ☐ | Chọn nhiều filter trạng thái cùng lúc | 1. Tại Trang chủ, tick đồng thời 2 checkbox (VD "Bàn trống" + "Đang sử dụng") 2. Quan sát danh sách bàn và số đếm dropdown khu | Hiện hợp (union) các bàn của cả 2 trạng thái; số đếm khớp tổng |
+| 1.1.18 | ☐ | Realtime: thẻ tự cập nhật khi có đơn mới | 1. Đứng tại Trang chủ, không reload trang 2. Tạo/đợi một đơn mới phát sinh (đơn QR / order online) 3. Quan sát sơ đồ bàn | Thẻ bàn mới + toast thông báo tự xuất hiện không cần tải lại trang |
+| 1.1.19 | ☐ | Timer trên thẻ chạy theo thời gian thực | 1. Tại Trang chủ, chọn một thẻ bàn đang sử dụng 2. Quan sát ô timer (mm:ss) trong vài giây | Timer tăng dần theo thời gian thực |
+| 1.1.20 | ☐ | Hủy đơn chờ xác nhận | 1. Lọc "Chờ xác nhận", bấm "Xác nhận" trên thẻ để mở popup chi tiết 2. Bấm nút "Hủy đơn" 3. Quan sát trạng thái thẻ | Đơn bị hủy, thẻ rời khỏi danh sách chờ xác nhận tránh hủy dữ liệu thật |
+| 1.1.21 | ☐ | Bấm vào bàn trống tạo đơn mới | 1. Tại Trang chủ, bấm vào một thẻ bàn trống (màu xanh) 2. Quan sát màn hình mở ra | Mở màn hình Order trống của bàn đó để bắt đầu tạo đơn|
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+---
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

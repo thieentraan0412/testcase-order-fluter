@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.9 Chuyển bàn
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -26,4 +29,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.9.8 | ☐ | Chuyển bàn khi món đã gửi bếp | 1. Tại Bàn A, thêm món và bấm "Báo bếp" (món đã gửi bếp) 2. Mở chức năng chuyển bàn, chọn Bàn B trống 3. Xác nhận chuyển 4. Vào Bàn B kiểm tra trạng thái món | Món chuyển sang Bàn B vẫn giữ trạng thái "đã gửi bếp", không bị reset về "Chưa báo bếp" |
 | 1.9.9 | ☐ | Hủy thao tác chuyển bàn giữa chừng | 1. Mở chức năng chuyển bàn từ Bàn A 2. Danh sách bàn đích hiện ra, nhưng "không chọn bàn nào" 3. Bấm "Hủy" hoặc "Đóng" (X) 4. Quan sát dữ liệu Bàn A | Không có thay đổi nào xảy ra; đơn tại Bàn A giữ nguyên như trước |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

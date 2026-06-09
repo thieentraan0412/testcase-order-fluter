@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -258,4 +258,4 @@ Link manager https://table1.klkim.com/v2/dashboard
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

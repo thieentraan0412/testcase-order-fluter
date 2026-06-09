@@ -1,4 +1,4 @@
-Link login: https://table1.klkim.com/login
+﻿Link login: https://table1.klkim.com/login
 
 Tài khoản:
 - Cửa hàng: trong
@@ -10,6 +10,8 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 4. Lịch sử
 ---
 
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 4.1 Bộ lọc loại đơn
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -20,4 +22,4 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 | 4.1.4 | ☐ | Lọc tab "Đặt online" | 1. Vào trang lịch sử 2. Bấm tab "Đặt online" 3. Quan sát danh sách | Chỉ hiện đơn đặt online; nếu không có đơn nào thì danh sách rỗng |
 | 4.1.5 | ☐ | Dropdown "Chọn bàn" | 1. Vào trang lịch sử 2. Tìm dropdown "Chọn bàn" trên thanh bộ lọc 3. Bấm dropdown, chọn một bàn cụ thể (VD: Bàn 1) 4. Quan sát danh sách đơn | Chỉ hiện các đơn thuộc bàn đã chọn |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

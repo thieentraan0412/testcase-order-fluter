@@ -1,10 +1,12 @@
-## 6. Đặt bàn (Order Booking)
+﻿## 6. Đặt bàn (Order Booking)
 
 > Trang: `/v2/order/cashier/order-booking` — Module **Đặt bàn**
 > Gồm 2 màn hình: (1) **Lịch đặt bàn theo tuần** và (2) **Tra cứu lịch đặt bàn** (`/booking/table-reservation`)
 > Hệ thống NASYS Order.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 6.11 Logic nghiệp vụ
 
@@ -17,4 +19,4 @@
 | 6.11.5 | ☐ | Chọn món trước → mang sang đơn bán | 1. Tạo đặt bàn và chọn trước một số món (bấm "+ Chọn món") 2. Bấm "Đặt bàn" thành công 3. Khi khách đến, mở đơn từ đặt bàn đó 4. Quan sát danh sách món trong đơn | Danh sách món đã chọn trước được mang đầy đủ sang đơn bán hàng |
 | 6.11.6 | ☐ | Mã hóa đơn liên kết sau thanh toán | 1. Tạo đặt bàn, khách đến và thanh toán xong 2. Vào trang Tra cứu, tìm đặt bàn đó 3. Kiểm tra cột "Mã hóa đơn" | Mã hóa đơn xuất hiện và liên kết đúng với đơn thanh toán tương ứng |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

@@ -1,4 +1,4 @@
-## 6. Đặt bàn (Order Booking)
+﻿## 6. Đặt bàn (Order Booking)
 
 > Trang: `/v2/order/cashier/order-booking` — Module **Đặt bàn**
 > Gồm 2 màn hình: (1) **Lịch đặt bàn theo tuần** và (2) **Tra cứu lịch đặt bàn** (`/booking/table-reservation`)
@@ -165,4 +165,4 @@
 - Trang Tra cứu có **16 cột** trong bảng, trong đó Lý do hủy, Người hủy, Ngày hủy chỉ có dữ liệu khi đặt bàn bị hủy.
 - Nút "**Làm mới**" trên Tra cứu reset toàn bộ bộ lọc.
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

@@ -1,4 +1,4 @@
-## 3. Đặt online (Order Online)
+﻿## 3. Đặt online (Order Online)
 Link login: https://table1.klkim.com/login
 
 Tài khoản:
@@ -39,4 +39,4 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/order-online
 | 3.1.25 | ☐ | Mở chức năng "Đặt bàn" / Tra cứu đặt bàn | 1. Click nút "Đặt bàn" 2. Quan sát | Hiển thị form tra cứu với Họ và tên, Số điện thoại, chọn Năm/Tuần và nút "Tra cứu đặt bàn" |
 | 3.1.26 | ☐ | Tra cứu đặt bàn theo thông tin khách | 1. Mở form tra cứu 2. Nhập họ tên / số điện thoại, chọn tuần 3. Click "Tra cứu đặt bàn" | Hiển thị kết quả đặt bàn khớp với thông tin tra cứu |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

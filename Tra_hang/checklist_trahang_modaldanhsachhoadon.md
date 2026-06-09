@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 6. Nút "Trả hàng" → Modal "Danh sách hóa đơn"
 
@@ -19,4 +21,4 @@
 | ☐ | 6.8 Bấm "Chọn" hóa đơn | 1. Bấm "Chọn" ở 1 hóa đơn | Mở modal "Thông tin trả hàng" của hóa đơn đó |
 | ☐ | 6.9 Danh sách hóa đơn rỗng | 1. Lọc khoảng ngày không có hóa đơn | Bảng trống, không lỗi |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

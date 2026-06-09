@@ -1,10 +1,12 @@
-## 6. Đặt bàn (Order Booking)
+﻿## 6. Đặt bàn (Order Booking)
 
 > Trang: `/v2/order/cashier/order-booking` — Module **Đặt bàn**
 > Gồm 2 màn hình: (1) **Lịch đặt bàn theo tuần** và (2) **Tra cứu lịch đặt bàn** (`/booking/table-reservation`)
 > Hệ thống NASYS Order.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 6.1 Điều hướng tuần & ngày
 
@@ -17,4 +19,4 @@
 | 6.1.5 | ☐ | Dropdown "Năm" chuyển đúng năm | 1. Vào trang Đặt bàn 2. Tìm và bấm dropdown "Năm" 3. Chọn một năm khác (VD: 2027) 4. Quan sát dropdown Tuần và dải tab | Dropdown Tuần và dải tab cập nhật theo năm đã chọn |
 | 6.1.6 | ☐ | Dropdown "Tuần" nhảy đến tuần chọn | 1. Vào trang Đặt bàn 2. Bấm dropdown "Tuần" 3. Chọn một khoảng tuần cụ thể (VD: 08/06/2026 – 14/06/2026) 4. Quan sát dải tab ngày | Dải tab ngày nhảy đến đúng tuần đã chọn |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

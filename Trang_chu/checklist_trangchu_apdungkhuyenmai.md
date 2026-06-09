@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Sau khi truy cập link: Click vào bàn    
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.13 Áp dụng khuyến mãi
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -23,4 +26,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.13.5 | ☐ | Bỏ khuyến mãi đã áp | 1. Sau khi đã áp CTKM thành công, tìm tùy chọn gỡ/bỏ khuyến mãi 2. Xác nhận gỡ 3. Quan sát lại Tổng tiền thanh toán | Giảm giá bị xóa, tổng tiền hoàn về giá gốc |
 | 1.13.6 | ☐ | Chưa mở ca | 1. Đảm bảo ca chưa được mở 2. Vào màn hình Order, thử mở chức năng khuyến mãi 3. Quan sát phản hồi | Hệ thống chặn, không cho áp khuyến mãi |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

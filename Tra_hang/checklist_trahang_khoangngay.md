@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 4. Bộ lọc "Khoảng ngày"
 
@@ -17,4 +19,4 @@
 | ☐ | 4.6 Nút Đóng | 1. Mở popup 2. Bấm "Đóng" | Đóng popup, không thay đổi filter |
 | ☐ | 4.7 Nút Xác nhận | 1. Chọn khoảng ngày 2. Bấm "Xác nhận" | Áp dụng filter, đóng popup |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

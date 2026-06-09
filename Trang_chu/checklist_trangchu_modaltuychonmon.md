@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.3 Modal tùy chọn món
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -25,4 +28,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.3.7 | ☐ | Bấm "Đóng" | 1. Mở modal của bất kỳ món có tùy chọn nào 2. Không chọn gì, bấm nút "Đóng" 3. Quan sát hóa đơn | Đóng modal, không thêm món vào hóa đơn |
 | 1.3.8 | ☐ | Tùy chọn hiển thị trong dòng món | 1. Sau khi bấm "Chọn", quan sát dòng món vừa thêm trong hóa đơn 2. Kiểm tra thông tin tùy chọn hiển thị bên dưới tên món | Hiển thị rõ các tùy chọn đã chọn (VD: Size S, Nước ngọt: Pepsi 5%) |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

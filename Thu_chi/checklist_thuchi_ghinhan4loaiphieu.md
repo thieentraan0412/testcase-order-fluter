@@ -1,4 +1,4 @@
-
+﻿
 ## 2. Thu chi
 
 Link login: https://table1.klkim.com/login
@@ -11,6 +11,8 @@ Tài khoản:
 Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 2.5 Ghi nhận 4 loại phiếu (logic chính)
 
@@ -33,4 +35,4 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 | 2.5.15 | ☐ | Tổng thu = Σ tất cả nguồn thu | 1. Vào trang Thu chi, bật lọc Loại = "Thu" 2. Cộng tay tất cả số tiền phiếu thu trong danh sách (bao gồm thu thủ công + bán hàng) 3. So sánh kết quả với thẻ "Tổng thu" | Tổng thu trên thẻ = Σ số tiền tất cả phiếu thu (thủ công + bán hàng) |
 | 2.5.16 | ☐ | Tổng chi = Σ tất cả nguồn chi | 1. Vào trang Thu chi, bật lọc Loại = "Chi" 2. Cộng tay tất cả số tiền phiếu chi trong danh sách (bao gồm chi thủ công + trả hàng) 3. So sánh kết quả với thẻ "Tổng chi" | Tổng chi trên thẻ = Σ số tiền tất cả phiếu chi (thủ công + trả hàng) |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

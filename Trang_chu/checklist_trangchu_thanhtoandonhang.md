@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.15 Thanh toán đơn hàng (qua Chờ thanh toán)
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -21,4 +24,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.15.3 | ☐ | Thanh toán bằng cách chọn bàn đang dùng | 1. Tại Trang chủ, bấm trực tiếp vào bàn đang sử dụng 2. Vào màn hình Order của bàn đó 3. Thực hiện thanh toán theo yêu cầu khách | Thanh toán thành công, bàn về trống |
 | 1.15.4 | ☐ | Thanh toán đơn order gửi từ tablet/mobile | 1. Đảm bảo có đơn được gửi từ thiết bị tablet/mobile của khách 2. Tại màn hình cashier, xác nhận đơn vào bàn 3. Thực hiện thanh toán đơn đó | Đơn được tiếp nhận và thanh toán đúng |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

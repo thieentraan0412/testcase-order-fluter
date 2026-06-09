@@ -1,4 +1,4 @@
-
+﻿
 Link login: https://table1.klkim.com/login
 
 Tài khoản:
@@ -10,6 +10,8 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 
 ## 5. Điều phối ca
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 5.5 Đối soát ca (logic tính)
 
@@ -24,4 +26,4 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 | 5.5.7 | ☐ | Phiếu chi trừ khỏi ca đúng | 1. Tạo phiếu chi tiền mặt trong ca đang mở 2. Ghi lại tổng tiền mặt trong ca trước và sau khi tạo phiếu chi 3. So sánh chênh lệch với số tiền chi | Tổng tiền mặt trong ca giảm đúng bằng số tiền chi |
 | 5.5.8 | ☐ | Giao dịch đã hủy không tính vào tổng | 1. Trong danh sách giao dịch ca, lọc trạng thái "Đã hủy" để xác định giao dịch bị hủy 2. Lọc trạng thái "Hoàn thành", tính tay tổng tiền các giao dịch hoàn thành 3. So sánh với "Tổng tiền mặt trong ca" hiển thị | Tổng tiền chỉ tính giao dịch hoàn thành; giao dịch đã hủy không được cộng vào |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

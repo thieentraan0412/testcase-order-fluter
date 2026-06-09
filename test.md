@@ -1,4 +1,4 @@
-\# Checklist Testcase — App F\&B (NASYS POS)
+﻿\# Checklist Testcase — App F\&B (NASYS POS)
 
 
 
@@ -19,7 +19,7 @@ tài khoản
 &#x20;   Mật khẩu : 147258
 
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
 
 
 | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |

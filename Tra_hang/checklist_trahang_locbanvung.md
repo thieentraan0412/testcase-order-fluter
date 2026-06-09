@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 3. Lọc theo Khu vực bàn & Bàn
 
@@ -19,4 +21,4 @@
 | ☐ | 3.8 Search bàn | 1. Gõ tên bàn vào ô search | Lọc đúng bàn theo từ khóa |
 | ☐ | 3.9 Kết hợp nhiều filter | 1. Áp dụng đồng thời search + khu vực + bàn + ngày | Kết quả khớp tất cả điều kiện |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

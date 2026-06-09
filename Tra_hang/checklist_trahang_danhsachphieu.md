@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 10. Bảng danh sách phiếu trả hàng & cột "Hành động"
 
@@ -14,4 +16,4 @@
 | ☐ | 10.3 Sắp xếp/cuộn danh sách dài | 1. Tạo nhiều phiếu 2. Cuộn bảng | Hiển thị mượt, không lỗi layout |
 | ☐ | 10.4 Định dạng số tiền cột "Đã trả" | 1. Quan sát cột Đã trả | Định dạng tiền tệ đúng (dấu phân cách, đơn vị đ) |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

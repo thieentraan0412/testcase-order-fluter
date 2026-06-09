@@ -1,9 +1,11 @@
-# Checklist Testcase — Trang Trả hàng (Return Order)
+﻿# Checklist Testcase — Trang Trả hàng (Return Order)
 
 > Link: https://table1.klkim.com/v2/order/cashier/return-order
 > Nền tảng: Google Chrome. Đổi ☐ → ☑ khi test xong.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 2. Ô tìm kiếm "Mã phiếu trả hàng | Khách hàng"
 
@@ -16,4 +18,4 @@
 | ☐ | 2.5 Tìm ký tự đặc biệt/khoảng trắng | 1. Nhập ký tự đặc biệt, dấu cách | Không lỗi, xử lý hợp lý |
 | ☐ | 2.6 Phân biệt hoa/thường | 1. Nhập tên dạng chữ hoa & chữ thường | Kết quả tìm kiếm nhất quán |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

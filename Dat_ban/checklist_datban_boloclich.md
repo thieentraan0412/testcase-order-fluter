@@ -1,10 +1,12 @@
-## 6. Đặt bàn (Order Booking)
+﻿## 6. Đặt bàn (Order Booking)
 
 > Trang: `/v2/order/cashier/order-booking` — Module **Đặt bàn**
 > Gồm 2 màn hình: (1) **Lịch đặt bàn theo tuần** và (2) **Tra cứu lịch đặt bàn** (`/booking/table-reservation`)
 > Hệ thống NASYS Order.
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 6.2 Bộ lọc lịch
 
@@ -18,4 +20,4 @@
 | 6.2.6 | ☐ | Lọc theo Số điện thoại | 1. Vào trang Đặt bàn 2. Nhập số điện thoại khách vào ô tìm kiếm SĐT 3. Quan sát lịch | Chỉ hiện đặt bàn của khách khớp số điện thoại |
 | 6.2.7 | ☐ | Kết hợp nhiều bộ lọc | 1. Vào trang Đặt bàn 2. Bật đồng thời: chọn Bàn + Trạng thái + nhập Tên khách 3. Quan sát lịch | Kết quả hiển thị đúng giao của tất cả điều kiện đã lọc |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

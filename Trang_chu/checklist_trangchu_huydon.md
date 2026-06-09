@@ -1,4 +1,4 @@
-# Checklist Testcase — App F&B (NASYS POS)
+﻿# Checklist Testcase — App F&B (NASYS POS)
 
 > Nền tảng: Ordertable riêng. Xây dựng dần qua từng video. Đổi ☐ → ☑ khi xong.
 
@@ -12,6 +12,9 @@ Link cashier https://table1.klkim.com/v2/order/cashier
 Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 1.14 Hủy đơn
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -22,4 +25,4 @@ Sau khi truy cập link: Click vào bàn
 | 1.14.4 | ☐ | Hủy đơn đã thanh toán | 1. Vào Lịch sử, tìm một đơn đã thanh toán thành công 2. Thử thao tác hủy đơn đó 3. Quan sát phản hồi | Hệ thống chặn, không cho hủy đơn đã thanh toán |
 | 1.14.5 | ☐ | Không có quyền / chưa mở ca | 1. Đăng nhập bằng tài khoản không có quyền hủy đơn hoặc đảm bảo ca chưa mở 2. Vào bàn có đơn 3. Thử thao tác hủy đơn | Hệ thống chặn, hiển thị thông báo không có quyền hoặc yêu cầu mở ca |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

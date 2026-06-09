@@ -1,4 +1,4 @@
-
+﻿
 ## 2. Thu chi
 
 Link login: https://table1.klkim.com/login
@@ -11,6 +11,8 @@ Tài khoản:
 Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
+
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
 
 2.7 Công nợ (tab Công nợ)
 
@@ -30,4 +32,4 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 | 2.7.12 | ☐ | 1. Bấm xem chi tiết một dòng công nợ (nếu có). | Mở chi tiết công nợ của đối tượng đúng. |
 | 2.7.13 | ☐ | 1. Chuyển qua lại giữa tab "Quản lý thu chi" và "Công nợ". | Mỗi tab giữ đúng dữ liệu & bộ lọc của mình, không lẫn. |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

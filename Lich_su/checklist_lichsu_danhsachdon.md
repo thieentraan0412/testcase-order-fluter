@@ -1,4 +1,4 @@
-Link login: https://table1.klkim.com/login
+﻿Link login: https://table1.klkim.com/login
 
 Tài khoản:
 - Cửa hàng: trong
@@ -10,6 +10,8 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 4. Lịch sử
 ---
 
+Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+
 4.3 Danh sách đơn
 
 | STT | ✓ | Testcase | Các bước thực hiện | Kết quả mong đợi |
@@ -20,4 +22,4 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 | 4.3.4 | ☐ | Màu thẻ theo trạng thái | 1. Vào trang lịch sử 2. Quan sát màu nền hoặc màu viền các thẻ đơn 3. So sánh màu giữa đơn chưa thanh toán và đơn đã thanh toán | Đơn chưa thanh toán màu xám; đơn đã thanh toán màu xanh |
 | 4.3.5 | ☐ | Số tiền trên thẻ khớp chi tiết đơn | 1. Quan sát số tiền hiển thị trên thẻ đơn, ghi nhận lại 2. Bấm vào thẻ đơn đó để mở chi tiết 3. So sánh số tiền trong modal chi tiết với số tiền trên thẻ | Số tiền trên thẻ = tổng tiền thanh toán trong chi tiết đơn |
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x

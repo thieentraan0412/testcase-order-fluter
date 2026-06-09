@@ -1,4 +1,4 @@
-
+﻿
 Link login: https://table1.klkim.com/login
 
 Tài khoản:
@@ -94,4 +94,4 @@ Link cashier: https://table.nasys.vn/v2/order/cashier/history
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau, và sau đó Đổi ☐ → ☑ khi xong khi pass testcase, còn fail thì đánh x
+sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
