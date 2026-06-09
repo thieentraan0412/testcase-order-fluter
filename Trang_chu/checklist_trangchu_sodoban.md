@@ -43,3 +43,19 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 
 ---
 sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+
+---
+
+Sau khi hoàn thành toàn bộ testcase ở trên, hãy thay đổi kích thước trình duyệt và thực hiện lại toàn bộ testcase theo từng độ phân giải sau:
+
+1. **Màn hình PC** — 1366 × 768: Mở DevTools (F12) → chọn Responsive → nhập 1366 × 768. Chạy lại toàn bộ testcase 1.1.1 → 1.1.21, đánh dấu kết quả riêng.
+
+và để kết quả ở đây:
+
+
+
+
+2. **Màn hình Mobile** — 390 × 844: Trong DevTools chọn 390 × 844 (hoặc chọn preset iPhone 14 Pro). Chạy lại toàn bộ testcase 1.1.1 → 1.1.21, đánh dấu kết quả riêng.
+
+và để kết quả ở đây:
+
