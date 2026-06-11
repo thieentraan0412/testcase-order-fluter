@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.11 Logic nghiệp vụ
 
@@ -19,4 +19,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.11.5 | ☐ | Chọn món trước → mang sang đơn bán | 1. Tạo đặt bàn và chọn trước một số món (bấm "+ Chọn món") 2. Bấm "Đặt bàn" thành công 3. Khi khách đến, mở đơn từ đặt bàn đó 4. Quan sát danh sách món trong đơn | Danh sách món đã chọn trước được mang đầy đủ sang đơn bán hàng |
 | 6.11.6 | ☐ | Mã hóa đơn liên kết sau thanh toán | 1. Tạo đặt bàn, khách đến và thanh toán xong 2. Vào trang Tra cứu, tìm đặt bàn đó 3. Kiểm tra cột "Mã hóa đơn" | Mã hóa đơn xuất hiện và liên kết đúng với đơn thanh toán tương ứng |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

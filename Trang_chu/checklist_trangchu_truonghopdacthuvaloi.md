@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.16 Trường hợp đặc thù & lỗi
 
@@ -26,4 +27,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.16.5 | ☐ | Hai thu ngân cùng 1 bàn | 1. Mở bàn đang có đơn trên 2 thiết bị/tab khác nhau 2. Cả 2 cùng thêm món hoặc chỉnh sửa đồng thời 3. Quan sát kết quả trên cả 2 thiết bị | Không bị ghi đè hoặc mất dữ liệu của nhau |
 | 1.16.6 | ☐ | Ghi chú có dấu / ký tự đặc biệt | 1. Trong hóa đơn, tích checkbox "Ghi chú" trên một dòng món 2. Nhập nội dung có dấu tiếng Việt và ký tự đặc biệt (VD: @, #, !, ...) 3. Lưu và quan sát lại dòng món | Ghi chú lưu và hiển thị đúng, không bị lỗi ký tự |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

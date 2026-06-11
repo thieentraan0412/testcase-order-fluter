@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.4 Tạo đặt bàn (modal "Đặt bàn")
 
@@ -17,4 +17,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.4.3 | ☐ | Bỏ trống chỉ Khách hàng | 1. Mở modal "Đặt bàn" 2. Chọn Bàn nhưng để trống Khách hàng 3. Bấm "Đặt bàn" 4. Quan sát phản hồi | Hệ thống chặn, báo lỗi Khách hàng là bắt buộc |
 | 6.4.4 | ☐ | Bỏ trống chỉ Bàn | 1. Mở modal "Đặt bàn" 2. Chọn Khách hàng nhưng không chọn Bàn 3. Bấm "Đặt bàn" 4. Quan sát phản hồi | Hệ thống chặn, báo lỗi Bàn là bắt buộc |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

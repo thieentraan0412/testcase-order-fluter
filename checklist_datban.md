@@ -165,4 +165,4 @@
 - Trang Tra cứu có **16 cột** trong bảng, trong đó Lý do hủy, Người hủy, Ngày hủy chỉ có dữ liệu khi đặt bàn bị hủy.
 - Nút "**Làm mới**" trên Tra cứu reset toàn bộ bộ lọc.
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

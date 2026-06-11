@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.2 Bộ lọc lịch
 
@@ -20,4 +20,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.2.6 | ☐ | Lọc theo Số điện thoại | 1. Vào trang Đặt bàn 2. Nhập số điện thoại khách vào ô tìm kiếm SĐT 3. Quan sát lịch | Chỉ hiện đặt bàn của khách khớp số điện thoại |
 | 6.2.7 | ☐ | Kết hợp nhiều bộ lọc | 1. Vào trang Đặt bàn 2. Bật đồng thời: chọn Bàn + Trạng thái + nhập Tên khách 3. Quan sát lịch | Kết quả hiển thị đúng giao của tất cả điều kiện đã lọc |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

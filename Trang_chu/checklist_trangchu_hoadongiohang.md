@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.4 Hóa đơn / Giỏ hàng
 
@@ -40,4 +41,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.4.19 | ☐ | Hóa đơn trống | 1. Tại màn hình Order, tạo hóa đơn mới (bấm +) hoặc vào bàn chưa có món 2. Quan sát panel hóa đơn | Hiển thị thông báo "Bạn chưa thêm sản phẩm nào", tổng tiền = 0 |
 | 1.4.20 | ☐ | Nhân viên phụ trách | 1. Tại màn hình Order, quan sát tên nhân viên hiển thị trong hóa đơn (VD: "Nhân viên: Admin Master") 2. So sánh với tài khoản đang đăng nhập | Hiển thị đúng tên nhân viên đang thao tác |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -6,12 +6,12 @@ Tài khoản:
 - Tài khoản: admin
 - Mật khẩu: 147258
 
-Link cashier: https://table.nasys.vn/v2/order/cashier/history
+Link cashier: https://table1.klkim.com/v2/order/cashier/shift
 
 ## 5. Điều phối ca
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 5.1 Lịch sử ca
 
@@ -26,4 +26,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 5.1.7 | ☐ | Nút "Chi tiết ca" | 1. Vào trang lịch sử ca, bấm vào một ca để hiện chi tiết 2. Tìm và bấm nút "Chi tiết ca" ở panel bên phải 3. Quan sát màn hình | Mở modal chi tiết ca |
 | 5.1.8 | ☐ | Nút "Mở màn hình phụ" | 1. Vào trang lịch sử ca, bấm vào ca đang mở để hiện chi tiết 2. Tìm và bấm nút "Mở màn hình phụ" ở panel bên phải 3. Quan sát kết quả | Mở màn hình phụ của ca đang mở |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

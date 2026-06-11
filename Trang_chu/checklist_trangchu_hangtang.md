@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.12 Hàng tặng
 
@@ -26,4 +27,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.12.5 | ☐ | Hàng tặng không cộng vào tổng tiền | 1. Ghi nhận tổng tiền thanh toán trước khi thêm hàng tặng 2. Thêm món tặng vào đơn 3. So sánh tổng tiền thanh toán trước và sau | Tổng tiền thanh toán không thay đổi sau khi thêm hàng tặng |
 | 1.12.6 | ☐ | Đơn không thỏa điều kiện | 1. Tạo đơn với giá trị thấp hoặc không đủ điều kiện áp hàng tặng 2. Thử mở chức năng hàng tặng 3. Quan sát phản hồi | Hệ thống không cho áp, hiển thị thông báo phù hợp |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

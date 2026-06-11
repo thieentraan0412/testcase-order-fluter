@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.5 Thông tin khách hàng
 
@@ -16,4 +16,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.5.2 | ☐ | Bấm "+ Thêm mới" mở modal khách | 1. Mở modal "Đặt bàn" 2. Tại phần Khách hàng, bấm nút "+ Thêm mới" (xanh dương) 3. Quan sát màn hình | Mở modal "Thêm / Chỉnh sửa" khách hàng mới |
 | 6.5.3 | ☐ | Chọn Nhân viên đặt bàn | 1. Mở modal "Đặt bàn" 2. Tìm dropdown "Nhân viên đặt bàn" 3. Bấm dropdown phần loại, chọn loại (VD: Thu ngân) 4. Chọn tên nhân viên từ danh sách 5. Quan sát giá trị được ghi nhận | Ghi nhận đúng loại và tên nhân viên đặt bàn |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.7 Thông tin đặt bàn
 
@@ -25,4 +25,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.7.11 | ☐ | Đặt bàn thành công | 1. Mở modal "Đặt bàn" 2. Điền đầy đủ Khách hàng và Bàn (tối thiểu) 3. Bấm nút "Đặt bàn" 4. Quan sát lịch tuần | Tạo đặt bàn thành công; slot hiện trên lịch đúng ngày giờ; trạng thái "Chờ xác nhận" |
 | 6.7.12 | ☐ | Bấm "Đóng" không tạo đặt bàn | 1. Mở modal "Đặt bàn" 2. Nhập một vài thông tin vào form 3. Bấm nút "Đóng" (hoặc ✕) 4. Quan sát lịch | Modal đóng lại; không có đặt bàn mới nào được tạo |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

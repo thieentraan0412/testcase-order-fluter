@@ -6,12 +6,12 @@ Tài khoản:
 - Tài khoản: admin
 - Mật khẩu: 147258
 
-Link cashier: https://table.nasys.vn/v2/order/cashier/history
+Link cashier: https://table1.klkim.com/v2/order/cashier/shift
 
 ## 5. Điều phối ca
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 5.3 Thẻ tổng hợp (Bán hàng / Trả hàng / Phiếu thu / Phiếu chi)
 
@@ -24,4 +24,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 5.3.5 | ☐ | Bấm "..." trên thẻ để xem chi tiết phương thức | 1. Mở chi tiết một ca 2. Trên bất kỳ thẻ tổng hợp nào (VD: Bán hàng), bấm nút "..." 3. Quan sát thông tin hiện ra | Hiện chi tiết phân theo từng phương thức: tiền mặt / chuyển khoản / quẹt thẻ / QR / khác |
 | 5.3.6 | ☐ | Tổng các phương thức khớp với tổng thẻ | 1. Mở chi tiết thẻ bằng cách bấm "..." 2. Cộng tay các giá trị từng phương thức (tiền mặt + CK + thẻ + QR + khác) 3. So sánh với số tổng hiển thị trên thẻ | Tổng các phương thức = tổng hiển thị trên thẻ |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

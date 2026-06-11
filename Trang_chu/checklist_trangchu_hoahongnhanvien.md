@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.5 Hoa hồng nhân viên
 
@@ -31,4 +32,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.5.10 | ☐ | Để trống nhân viên | 1. Mở modal Hoa hồng 2. Không chọn nhân viên cho bất kỳ mục nào 3. Bấm "Xác nhận" | Hệ thống cho phép xác nhận, không báo lỗi bắt buộc |
 | 1.5.11 | ☐ | 1 NV gán nhiều mục | 1. Trong modal, chọn cùng một nhân viên cho cả 2 mục hoa hồng (VD: 123 (10%) và 456 (5%)) 2. Bấm "Xác nhận" 3. Kiểm tra tổng hoa hồng của nhân viên đó trong link "https://table.nasys.vn/v2/report/end-day?type=commission" vào mục "Báo cáo hoa hồng.| số tiền nhận được phải đúng với %
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

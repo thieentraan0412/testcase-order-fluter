@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 4. Bộ lọc "Khoảng ngày"
 
@@ -19,4 +19,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 4.6 Nút Đóng | 1. Mở popup 2. Bấm "Đóng" | Đóng popup, không thay đổi filter |
 | ☐ | 4.7 Nút Xác nhận | 1. Chọn khoảng ngày 2. Bấm "Xác nhận" | Áp dụng filter, đóng popup |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

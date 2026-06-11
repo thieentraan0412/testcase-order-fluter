@@ -5,12 +5,12 @@ Tài khoản:
 - Tài khoản: admin
 - Mật khẩu: 147258
 
-Link cashier: https://table.nasys.vn/v2/order/cashier/history
+Link cashier: https://table1.klkim.com/v2/order/cashier/history
 
 4. Lịch sử
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 4.4 Chi tiết đơn hàng
 
@@ -25,4 +25,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 4.4.7 | ☐ | Phương thức thanh toán hiển thị đúng | 1. Mở modal chi tiết đơn đã thanh toán 2. Tìm mục "Phương thức thanh toán" trong modal 3. So sánh với phương thức đã chọn lúc thanh toán (Tiền mặt / CK / Thẻ / QR) | Phương thức hiển thị đúng với lúc thanh toán thực tế |
 | 4.4.8 | ☐ | Bấm "Đóng" thoát modal | 1. Mở modal chi tiết đơn 2. Bấm nút "Đóng" 3. Quan sát màn hình và bộ lọc đang áp | Modal đóng lại, quay về danh sách; bộ lọc và trang hiện tại giữ nguyên |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

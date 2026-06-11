@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 11. Kiểm thử khác (UI/UX, phân quyền, hiệu năng)
 
@@ -18,4 +18,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 11.5 Mất kết nối khi trả hàng | 1. Ngắt mạng 2. Bấm Xác nhận trả hàng | Báo lỗi rõ ràng, không lưu sai dữ liệu |
 | ☐ | 11.6 Bấm Trả hàng nhiều lần nhanh | 1. Bấm "Xác nhận" liên tục | Không tạo trùng nhiều phiếu (chống double submit) |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -12,7 +12,7 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 2.2 Tổng quan quỹ
 
@@ -24,4 +24,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 2.2.4 | ☐ | Tồn quỹ cuối kỳ tính đúng | 1. Vào trang Thu chi 2. Ghi nhận 3 giá trị: Tồn đầu kỳ, Tổng thu, Tổng chi 3. Tính tay: Tồn đầu kỳ + Tổng thu − Tổng chi 4. So sánh kết quả với thẻ "Tồn quỹ cuối kỳ" | Tồn quỹ cuối kỳ = Tồn đầu kỳ + Tổng thu − Tổng chi |
 | 2.2.5 | ☐ | Đổi bộ lọc thời gian → thẻ cập nhật | 1. Vào trang Thu chi, ghi nhận 4 giá trị thẻ tổng quan đang hiển thị 2. Thay đổi bộ lọc thời gian (VD: từ "Tháng này" sang "Hôm nay") 3. Quan sát 4 thẻ sau khi đổi lọc | Cả 4 thẻ (Tồn đầu kỳ, Tổng thu, Tổng chi, Tồn cuối kỳ) cập nhật theo kỳ mới |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

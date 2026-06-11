@@ -6,12 +6,12 @@ Tài khoản:
 - Tài khoản: admin
 - Mật khẩu: 147258
 
-Link cashier: https://table.nasys.vn/v2/order/cashier/history
+Link cashier: https://table1.klkim.com/v2/order/cashier/shift
 
 ## 5. Điều phối ca
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 5.2 Thông tin ca & đóng ca
 
@@ -23,4 +23,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 5.2.4 | ☐ | Nút "Đóng và in phiếu" | 1. Mở chi tiết của ca đang ở trạng thái "Đang mở" 2. Tìm và bấm nút "Đóng và in phiếu" 3. Xác nhận nếu có hộp thoại 4. Quan sát kết quả | Ca bị đóng đồng thời in phiếu kết ca |
 | 5.2.5 | ☐ | Ca đã đóng không cho thao tác lại | 1. Bấm vào một ca đã có giờ đóng (trạng thái đã đóng) 2. Quan sát panel chi tiết bên phải 3. Kiểm tra xem nút "Đóng ca" / "Đóng và in phiếu" có hiển thị hay không | Không hiển thị nút đóng ca; không thể thực hiện thao tác đóng lại ca đã đóng |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

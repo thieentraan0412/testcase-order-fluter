@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.1 Sơ đồ bàn
 
@@ -38,24 +39,8 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.1.17 | ☐ | Chọn nhiều filter trạng thái cùng lúc | 1. Tại Trang chủ, tick đồng thời 2 checkbox (VD "Bàn trống" + "Đang sử dụng") 2. Quan sát danh sách bàn và số đếm dropdown khu | Hiện hợp (union) các bàn của cả 2 trạng thái; số đếm khớp tổng |
 | 1.1.18 | ☐ | Realtime: thẻ tự cập nhật khi có đơn mới | 1. Đứng tại Trang chủ, không reload trang 2. Tạo/đợi một đơn mới phát sinh (đơn QR / order online) 3. Quan sát sơ đồ bàn | Thẻ bàn mới + toast thông báo tự xuất hiện không cần tải lại trang |
 | 1.1.19 | ☐ | Timer trên thẻ chạy theo thời gian thực | 1. Tại Trang chủ, chọn một thẻ bàn đang sử dụng 2. Quan sát ô timer (mm:ss) trong vài giây | Timer tăng dần theo thời gian thực |
-| 1.1.20 | ☐ | Hủy đơn chờ xác nhận | 1. Lọc "Chờ xác nhận", bấm "Xác nhận" trên thẻ để mở popup chi tiết 2. Bấm nút "Hủy đơn" 3. Quan sát trạng thái thẻ | Đơn bị hủy, thẻ rời khỏi danh sách chờ xác nhận tránh hủy dữ liệu thật |
-| 1.1.21 | ☐ | Bấm vào bàn trống tạo đơn mới | 1. Tại Trang chủ, bấm vào một thẻ bàn trống (màu xanh) 2. Quan sát màn hình mở ra | Mở màn hình Order trống của bàn đó để bắt đầu tạo đơn|
+| 1.1.20 | ☐ | Bấm vào bàn trống tạo đơn mới | 1. Tại Trang chủ, bấm vào một thẻ bàn trống (màu xanh) 2. Quan sát màn hình mở ra | Mở màn hình Order trống của bàn đó để bắt đầu tạo đơn|
 
----
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.
 
----
-
-Sau khi hoàn thành toàn bộ testcase ở trên, hãy thay đổi kích thước trình duyệt và thực hiện lại toàn bộ testcase theo từng độ phân giải sau:
-
-1. **Màn hình PC** — 1366 × 768: Mở DevTools (F12) → chọn Responsive → nhập 1366 × 768. Chạy lại toàn bộ testcase 1.1.1 → 1.1.21, đánh dấu kết quả riêng.
-
-và để kết quả ở đây:
-
-
-
-
-2. **Màn hình Mobile** — 390 × 844: Trong DevTools chọn 390 × 844 (hoặc chọn preset iPhone 14 Pro). Chạy lại toàn bộ testcase 1.1.1 → 1.1.21, đánh dấu kết quả riêng.
-
-và để kết quả ở đây:
-
+(Nếu đã tồn tại file đó trong folder results thì thay nội dung )

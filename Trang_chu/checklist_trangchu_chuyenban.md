@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.9 Chuyển bàn
 
@@ -29,4 +30,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.9.8 | ☐ | Chuyển bàn khi món đã gửi bếp | 1. Tại Bàn A, thêm món và bấm "Báo bếp" (món đã gửi bếp) 2. Mở chức năng chuyển bàn, chọn Bàn B trống 3. Xác nhận chuyển 4. Vào Bàn B kiểm tra trạng thái món | Món chuyển sang Bàn B vẫn giữ trạng thái "đã gửi bếp", không bị reset về "Chưa báo bếp" |
 | 1.9.9 | ☐ | Hủy thao tác chuyển bàn giữa chừng | 1. Mở chức năng chuyển bàn từ Bàn A 2. Danh sách bàn đích hiện ra, nhưng "không chọn bàn nào" 3. Bấm "Hủy" hoặc "Đóng" (X) 4. Quan sát dữ liệu Bàn A | Không có thay đổi nào xảy ra; đơn tại Bàn A giữ nguyên như trước |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

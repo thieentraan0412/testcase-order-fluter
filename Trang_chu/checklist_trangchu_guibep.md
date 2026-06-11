@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.8 Gửi bếp
 
@@ -24,4 +25,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.8.3 | ☐ | Gửi bếp khi giỏ trống | 1. Tạo hóa đơn mới hoặc xóa hết món 2. Bấm nút "Báo bếp" 3. Quan sát phản hồi | Hệ thống chặn, không gửi bếp |
 | 1.8.4 | ☐ | Gửi bếp chỉ áp món mới thêm | 1. Thêm Món A, bấm "Báo bếp" 2. Tiếp tục thêm Món B vào cùng hóa đơn 3. Bấm "Báo bếp" lần 2 4. Quan sát trạng thái từng dòng món | Chỉ Món B được gửi bếp, Món A không bị gửi lại trùng |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

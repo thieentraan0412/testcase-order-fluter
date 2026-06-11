@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.9 Bộ lọc Tra cứu
 
@@ -22,4 +22,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.9.8 | ☐ | Kết hợp nhiều bộ lọc | 1. Vào trang Tra cứu 2. Bật đồng thời: nhập Tên khách + chọn Trạng thái + nhập khoảng ngày 3. Quan sát bảng kết quả | Kết quả giao đúng tất cả điều kiện đã lọc |
 | 6.9.9 | ☐ | Nút "Làm mới" reset bộ lọc | 1. Vào trang Tra cứu, đã áp một số bộ lọc 2. Bấm nút "Làm mới" 3. Quan sát các ô bộ lọc và bảng | Toàn bộ bộ lọc bị xóa; bảng hiển thị lại toàn bộ dữ liệu |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

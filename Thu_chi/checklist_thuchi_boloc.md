@@ -12,7 +12,7 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 2.1 Bộ lọc
 
@@ -30,4 +30,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 2.1.10 | ☐ | Lọc theo Loại nguồn | 1. Vào trang Thu chi 2. Tìm dropdown "Loại nguồn" 3. Lần lượt chọn từng giá trị: Bán hàng / Mua hàng / Tự tạo / Trả hàng 4. Quan sát danh sách sau mỗi lần chọn | Mỗi lần chọn chỉ hiện phiếu đúng nguồn tương ứng |
 | 2.1.11 | ☐ | Kết hợp nhiều bộ lọc | 1. Vào trang Thu chi 2. Bật đồng thời nhiều bộ lọc: chọn Chi nhánh + Loại thu chi "Thu" + Thời gian "Tháng này" 3. Quan sát danh sách và các thẻ tổng quan bên trên | Danh sách chỉ hiện phiếu thỏa tất cả điều kiện; thẻ tổng quan cập nhật theo bộ lọc |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.11 Tách / ghép đơn
 
@@ -50,4 +51,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.11.29 | ☐ | Chưa mở ca / không có quyền | 1. Đảm bảo ca chưa mở hoặc dùng tài khoản không có quyền tách/ghép bàn 2. Vào màn hình Order của bàn đang có đơn 3. Tìm và bấm nút Tách/Ghép bàn | Hệ thống chặn thao tác, hiển thị thông báo "Chưa mở ca" hoặc "Không có quyền" |
 | 1.11.30 | ☐ | Tách/ghép khi có 2 người dùng cùng bàn | 1. Mở Bàn A trên 2 tab/thiết bị khác nhau 2. Trên tab 1: mở giao diện tách/ghép, bắt đầu thao tác 3. Trên tab 2: thêm một món mới vào Bàn A cùng lúc 4. Quay lại tab 1: bấm Xác nhận | Hệ thống không bị mất dữ liệu; món thêm ở tab 2 không bị mất hoặc có cảnh báo xung đột rõ ràng |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

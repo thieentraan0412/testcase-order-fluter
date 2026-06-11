@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.7 Xác nhận đơn (tại bàn / QR / mang về)
 
@@ -27,4 +28,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.7.6 | ☐ | Tìm kiếm/chọn bàn cần xác nhận | 1. Tại Trang chủ đang lọc "Chờ xác nhận", dùng dropdown khu hoặc tìm kiếm để lọc bàn cụ thể 2. Quan sát kết quả | Lọc đúng bàn/đơn cần tìm |
 | 1.7.7 | ☐ | Sau xác nhận, số đếm "Chờ xác nhận" giảm | 1. Ghi nhận số đếm trên checkbox "Chờ xác nhận" (VD: Chờ xác nhận (3)) 2. Xác nhận một đơn 3. Quan sát lại số đếm trên checkbox | Số đếm giảm đúng 1 đơn sau mỗi lần xác nhận |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

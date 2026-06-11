@@ -13,7 +13,8 @@ Sau khi truy cập link: Click vào bàn
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.13 Áp dụng khuyến mãi
 
@@ -26,4 +27,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.13.5 | ☐ | Bỏ khuyến mãi đã áp | 1. Sau khi đã áp CTKM thành công, tìm tùy chọn gỡ/bỏ khuyến mãi 2. Xác nhận gỡ 3. Quan sát lại Tổng tiền thanh toán | Giảm giá bị xóa, tổng tiền hoàn về giá gốc |
 | 1.13.6 | ☐ | Chưa mở ca | 1. Đảm bảo ca chưa được mở 2. Vào màn hình Order, thử mở chức năng khuyến mãi 3. Quan sát phản hồi | Hệ thống chặn, không cho áp khuyến mãi |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

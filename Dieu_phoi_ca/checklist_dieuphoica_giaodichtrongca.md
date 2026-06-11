@@ -6,12 +6,12 @@ Tài khoản:
 - Tài khoản: admin
 - Mật khẩu: 147258
 
-Link cashier: https://table.nasys.vn/v2/order/cashier/history
+Link cashier: https://table1.klkim.com/v2/order/cashier/shift
 
 ## 5. Điều phối ca
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 5.4 Giao dịch trong ca
 
@@ -28,4 +28,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 5.4.9 | ☐ | Lọc trạng thái "Đã hủy" | 1. Trong danh sách giao dịch, tìm bộ lọc trạng thái 2. Chọn "Đã hủy" 3. Quan sát kết quả | Chỉ hiện các giao dịch đã hủy |
 | 5.4.10 | ☐ | Tìm theo mã / chú thích | 1. Trong danh sách giao dịch, tìm ô tìm kiếm 2. Nhập mã chứng từ hoặc từ khóa trong chú thích 3. Quan sát kết quả tìm kiếm | Trả về đúng giao dịch khớp với từ khóa |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

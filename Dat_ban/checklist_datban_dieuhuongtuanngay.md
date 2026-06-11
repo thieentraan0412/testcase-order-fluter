@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.1 Điều hướng tuần & ngày
 
@@ -19,4 +19,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.1.5 | ☐ | Dropdown "Năm" chuyển đúng năm | 1. Vào trang Đặt bàn 2. Tìm và bấm dropdown "Năm" 3. Chọn một năm khác (VD: 2027) 4. Quan sát dropdown Tuần và dải tab | Dropdown Tuần và dải tab cập nhật theo năm đã chọn |
 | 6.1.6 | ☐ | Dropdown "Tuần" nhảy đến tuần chọn | 1. Vào trang Đặt bàn 2. Bấm dropdown "Tuần" 3. Chọn một khoảng tuần cụ thể (VD: 08/06/2026 – 14/06/2026) 4. Quan sát dải tab ngày | Dải tab ngày nhảy đến đúng tuần đã chọn |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 7. Modal "Thông tin trả hàng" — Thông tin & danh sách món
 
@@ -23,4 +23,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 7.10 Nút "Danh sách mặc định" | 1. Thay đổi số lượng 2. Bấm "Danh sách mặc định" | Reset danh sách món về trạng thái ban đầu |
 | ☐ | 7.11 Cuộn danh sách món | 1. Mở hóa đơn nhiều món 2. Cuộn trong bảng | Cuộn mượt, hiển thị đủ món |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

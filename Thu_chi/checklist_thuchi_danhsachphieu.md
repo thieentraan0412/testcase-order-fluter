@@ -12,7 +12,7 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 2.3 Danh sách phiếu
 
@@ -23,4 +23,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 2.3.3 | ☐ | Bấm icon xem để mở chi tiết | 1. Trong danh sách phiếu, tìm cột "Hành động" ở cuối mỗi dòng 2. Bấm icon xem (mắt/con mắt) tại một phiếu bất kỳ 3. Quan sát màn hình mở ra | Mở đúng trang hoặc modal chi tiết của phiếu đó |
 | 2.3.4 | ☐ | Phiếu có đính kèm | 1. Trong danh sách phiếu, tìm một phiếu có file đính kèm (cột đính kèm hiển thị icon/link) 2. Bấm vào đính kèm đó 3. Quan sát kết quả | File đính kèm hiển thị hoặc tải xuống được, không báo lỗi |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

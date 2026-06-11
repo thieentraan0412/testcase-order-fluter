@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6. Nút "Trả hàng" → Modal "Danh sách hóa đơn"
 
@@ -21,4 +21,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 6.8 Bấm "Chọn" hóa đơn | 1. Bấm "Chọn" ở 1 hóa đơn | Mở modal "Thông tin trả hàng" của hóa đơn đó |
 | ☐ | 6.9 Danh sách hóa đơn rỗng | 1. Lọc khoảng ngày không có hóa đơn | Bảng trống, không lỗi |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.14 Hủy đơn
 
@@ -25,4 +26,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.14.4 | ☐ | Hủy đơn đã thanh toán | 1. Vào Lịch sử, tìm một đơn đã thanh toán thành công 2. Thử thao tác hủy đơn đó 3. Quan sát phản hồi | Hệ thống chặn, không cho hủy đơn đã thanh toán |
 | 1.14.5 | ☐ | Không có quyền / chưa mở ca | 1. Đăng nhập bằng tài khoản không có quyền hủy đơn hoặc đảm bảo ca chưa mở 2. Vào bàn có đơn 3. Thử thao tác hủy đơn | Hệ thống chặn, hiển thị thông báo không có quyền hoặc yêu cầu mở ca |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

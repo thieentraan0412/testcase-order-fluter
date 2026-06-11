@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 2. Ô tìm kiếm "Mã phiếu trả hàng | Khách hàng"
 
@@ -18,4 +18,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 2.5 Tìm ký tự đặc biệt/khoảng trắng | 1. Nhập ký tự đặc biệt, dấu cách | Không lỗi, xử lý hợp lý |
 | ☐ | 2.6 Phân biệt hoa/thường | 1. Nhập tên dạng chữ hoa & chữ thường | Kết quả tìm kiếm nhất quán |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

@@ -12,7 +12,7 @@ Link cashier: https://table1.klkim.com/v2/order/cashier/income-expense
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 2.7 Công nợ (tab Công nợ)
 
@@ -32,4 +32,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 2.7.12 | ☐ | 1. Bấm xem chi tiết một dòng công nợ (nếu có). | Mở chi tiết công nợ của đối tượng đúng. |
 | 2.7.13 | ☐ | 1. Chuyển qua lại giữa tab "Quản lý thu chi" và "Công nợ". | Mỗi tab giữ đúng dữ liệu & bộ lọc của mình, không lẫn. |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

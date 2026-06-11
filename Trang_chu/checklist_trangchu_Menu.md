@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.2 Menu (Thực đơn) 
 
@@ -27,4 +28,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.2.6 | ☐ | Phân trang (1/5, 2/5...) | 1. Tại màn hình Order, quan sát chỉ số trang hiện tại (VD: 1/5) 2. Bấm mũi tên sang phải để chuyển sang trang tiếp 3. Quan sát món hiển thị và chỉ số trang cập nhật | Hiện trang tiếp theo, số trang đúng |
 | 1.2.7 | ☐ | Giá món | 1. Tại màn hình Order, quan sát giá hiển thị bên dưới từng món trong lưới 2. So sánh với giá thực tế đã cấu hình | Hiển thị đúng định dạng VND |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

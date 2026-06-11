@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 9. Xác nhận & lưu phiếu trả hàng
 
@@ -19,4 +19,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 9.6 Nút "Đóng" modal trả hàng | 1. Bấm "Đóng" | Đóng modal, không lưu, không tạo phiếu |
 | ☐ | 9.7 Trả hàng cho hóa đơn đã trả 1 phần | 1. Chọn hóa đơn đã trả 1 phần trước đó | Chỉ cho trả phần còn lại, số lượng đúng |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

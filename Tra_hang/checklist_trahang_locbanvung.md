@@ -5,7 +5,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 3. Lọc theo Khu vực bàn & Bàn
 
@@ -21,4 +21,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | ☐ | 3.8 Search bàn | 1. Gõ tên bàn vào ô search | Lọc đúng bàn theo từ khóa |
 | ☐ | 3.9 Kết hợp nhiều filter | 1. Áp dụng đồng thời search + khu vực + bàn + ngày | Kết quả khớp tất cả điều kiện |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

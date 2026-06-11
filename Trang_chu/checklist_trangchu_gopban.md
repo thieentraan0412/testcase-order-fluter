@@ -13,7 +13,8 @@ Link manager https://table1.klkim.com/v2/dashboard
 Sau khi truy cập link: Click vào bàn    
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
+Trong khi thực hiện testcase hãy bổ sung chi tiết từng bước click trong cột "Các bước thực hiện" và trong ghi thêm những testcase mới vào file này
 
 1.10 Gộp bàn
 
@@ -31,4 +32,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 1.10.10 | ☐ | Chưa mở ca / không có quyền | 1. Đảm bảo ca chưa mở hoặc dùng tài khoản không có quyền gộp bàn 2. Vào màn hình Order của bàn đang có đơn 3. Tìm và bấm nút Gộp bàn | Hệ thống chặn thao tác, hiển thị thông báo "Chưa mở ca" hoặc "Không có quyền" |
 | 1.10.11 | ☐ | Trạng thái thẻ bàn cập nhật ngay sau gộp | 1. Gộp Bàn B vào Bàn A, bấm Xác nhận 2. Ngay lập tức quay về "Trang chủ" (không reload thủ công) 3. Quan sát thẻ Bàn A và Bàn B | Bàn B hiển thị "trống" ngay lập tức; Bàn A hiển thị tổng tiền mới — không cần F5 mới thấy |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

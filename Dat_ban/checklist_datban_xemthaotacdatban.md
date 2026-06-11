@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.8 Xem & thao tác đặt bàn trên lịch tuần
 
@@ -18,4 +18,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 | 6.8.4 | ☐ | Hủy đặt bàn | 1. Bấm vào một slot đặt bàn trên lịch 2. Tìm và bấm nút "Hủy" trong modal 3. Quan sát xem có yêu cầu nhập Lý do hủy không 4. Nhập lý do và xác nhận hủy | Yêu cầu nhập Lý do hủy; sau khi xác nhận trạng thái chuyển sang "Đã hủy" |
 | 6.8.5 | ☐ | Chỉnh sửa thông tin đặt bàn | 1. Bấm vào một slot trên lịch để mở chi tiết 2. Chỉnh sửa một thông tin (VD: đổi số khách hoặc ghi chú) 3. Bấm "Lưu" 4. Mở lại chi tiết đặt bàn đó | Thông tin đã chỉnh sửa cập nhật đúng trên lịch và trong chi tiết |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.

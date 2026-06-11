@@ -6,7 +6,7 @@
 
 ---
 
-Hãy sử dụng google chorme và thực hiện các testcase sau và trong lúc thực hiện hãy bổ sung thêm các testcase còn thiếu vào file này theo mẫu luôn
+Hãy sử dụng google chorme và thực hiện các testcase sau
 
 6.3 Bấm "Tra cứu đặt bàn"
 
@@ -14,4 +14,4 @@ Hãy sử dụng google chorme và thực hiện các testcase sau và trong lú
 |-----|---|----------|--------------------|------------------|
 | 6.3.1 | ☐ | Nút "Tra cứu đặt bàn" chuyển trang | 1. Vào trang Đặt bàn 2. Tìm và bấm nút "Tra cứu đặt bàn" (màu vàng, góc dưới panel) 3. Quan sát màn hình mở ra | Chuyển sang trang "Tra cứu lịch đặt bàn" |
 
-sau khi thực hiện xong hết tất cả testcase thì Đổi ☐ → ☑ khi pass testcase, còn fail thì đánh x
+ Sau khi hoàn tất, xuất file result_`tên file hiện tại`.md vào folder `results`. đổi ☐ thành ☑ nếu pass, đánh **x** nếu fail trong file result_`tên file hiện tại`.md.
